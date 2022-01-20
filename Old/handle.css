@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  }
+  .transition_back {
+    transform-origin: top;
+  }
+  
+  
+  .noise {
+  pointer-events:none;
+  }
+  
+  .fullscreennvav {
+    pointer-events: none;
+  }
+  
+  .h1_chars {
+    will-change: transform;  
+  }
+  
+  .proj_sm-head {
+    mix-blend-mode: difference;
+  }
+  
+  
+  .h1_chars{
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+      mix-blend-mode: difference;
+  }
+  
+  
+  .canvas_trans {
+    pointer-events: all !Important;
+  }
+  
+  
+  .fullscreennvav {
+      pointer-events: none;
+      box-sizing: border-box; 
+    }
+    
+  .navwrapper {
+      pointer-events: all;
+    }
+  
+  
+  .transition {
+      pointer-events: none;
+    }
+    
+  .progress_bar {
+      transform-origin: left;
+    }
+    
+  .null {
+      pointer-events: none;
+    }
+  
+  canvas {
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+    }
+    
+  
+  #slider_canvas {
+    position: absolute;
+    top:0%;
+    left:0%;
+    right: 0%;
+    width: 100vw !important;
+    height: 100vh;
+  }
+  
+  .spacer {
+    height:100vh;
+    background-color: rebeccapurple;
+    z-index: 99;
+  }
+  
+  .dom-gl {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .slider_wrapper {
+    height: 100vh;
+    position: relative;
+  
+  }
+  
+  .slider {
+    position: relative;
+    padding: 0 22.5vw;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: -webkit-grab;
+    cursor: grab;
+    z-index: 2;
+  }
+  .slider__inner {
+    display: flex;
+    position: relative;
+  }
+  
+  .slide {
+    position: relative;
+  }
+  .slide:first-child {
+    position: relative;
+  }
+  .slide:not(:first-child) {
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+  .slide__inner {
+    position: relative;
+    width: 55vw;
+    padding-top: 56.5%;
+  }
+  .slide img {
+    display: none;
+  }
+  
+  .tit {
+    position: relative;
+    top: 90px!important;
+    font-size: 16px;
+  }
+  
+  
+  .titles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 3;
+    opacity: 0;
+  }
+  .titles__list {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .titles__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vw;
+    font-weight: bold;
+    letter-spacing: -0.1vw;
+    color: #fff;
+  }
+  .titles__title--proxy {
+    visibility: hidden;
+  }
+  
+  .progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.25rem;
+    overflow: hidden;
+    pointer-events: none;
+    display: none;
+  }
+  .progress__line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background-color: #fff;
+  }
+  .progress__line:nth-child(2) {
+    transform-origin: right;
+  }
+  .fullscreennvav > canvas {
+    width: 100vw !important;
+    position: absolute !important;
+  }
+  
+  .fullscreennvav {
+    top:0%;
+  }
+  
+  .navitem {
+    transform-origin: top;
+  }
+  
+  .menu_canvas {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index:9999;
+    position: fixed;
+    top: 0%;
+    pointer-events: none;
+  }
+  
+  .form12_checkbox_field >img {
+    display:block !important;
+  }
+  
+  .next >img {
+    display:block !important;
+  }
+  
+  .proj_de {
+    pointer-events: none;
+  }
+  
+  .close-button {
+    opacity: 0 !important;
+    }
+    
+  
+    
+  .scrollfixed {
+    display: block;
+    position: fixed;
+    top:0;
+    left:0;
+  }
+    
+  .scroll_indicator {
+    pointer-events: none;
+   }
+   
+   .plane {
+     will-change: scroll-position;
+   }
+    
+  
