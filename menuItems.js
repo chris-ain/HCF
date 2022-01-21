@@ -50,7 +50,7 @@ let targetY = 0;
 const imageOne = new THREE.TextureLoader().load('https://uploads-ssl.webflow.com/612d2c01db57a270ec502b3f/61bf27164334b806a6d46caa_1%20Kopie.jpg');
 const imageTwo = new THREE.TextureLoader().load('https://uploads-ssl.webflow.com/612d2c01db57a270ec502b3f/61bf30b98bfa11583fbc41af_agentur.jpg');
 const imageThree  = new THREE.TextureLoader().load('https://uploads-ssl.webflow.com/612d2c01db57a270ec502b3f/612ea065ed48a93c793e778a_6027bfcfa09dbb738dc8bdb7_isser1.jpg');
-const imageFour= new THREE.TextureLoader().load('https://uploads-ssl.webflow.com/612d2c01db57a270ec502b3f/61b8ce5aa986126bb90340e0_Shooting_Agentur-3.jpg');
+const imageFour= new THREE.TextureLoader().load('https://uploads-ssl.webflow.com/612d2c01db57a270ec502b3f/61ea8f1494a7521b961f52de_kontakt.jpg');
 
 const images = {
     imageOne,
